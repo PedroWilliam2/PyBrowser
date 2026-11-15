@@ -1,52 +1,96 @@
-# 🏴‍☠️ PyBrowser (feat. Grumete)
+# 🏴‍☠️ Grumete
 
-![PyBrowser Logo](ancora.png)
-*(Yes, I made the logo myself. Yes, I know it's ugly. It adds character.)*
+![Grumete Logo](logo.png)
 
-**PyBrowser** is a lightweight, simple web browser built entirely in Python. It strips away modern web bloat to give you a fast, no-nonsense browsing experience—assisted by **Grumete** (Portuguese for *cabin boy*, the young sailors who used to help navigate ships back in the day).
+*Yes, I made the logo myself. Yes, I know it's ugly. It adds character.*
+
+**Grumete** is a lightweight, simple web browser built with Python. It strips away modern web bloat to provide a simple browsing experience, with a focus on lightweight HTML/CSS rendering and HTTP request handling.
+
+Grumete (Portuguese for *cabin boy*) refers to the young sailors who helped navigate ships back in the day.
 
 ---
 
 ## 🚫 Why No JavaScript?
-Because modern JavaScript turns lightweight browsers into slow, laggy garbage. 
 
-PyBrowser intentionally **does not render JavaScript**. Instead, it focuses on clean HTML/CSS rendering and smart request handling, keeping memory usage low and page loads snappy without heavy browser engines dragging your PC down.
+Because modern JavaScript can turn lightweight browsers into slow, resource-hungry applications.
+
+Grumete intentionally **does not execute JavaScript in its TkinterWeb rendering component**. Instead, it focuses on HTML/CSS rendering and HTTP request handling, avoiding the overhead of a full browser engine.
+
+This means some modern websites may not work as expected, especially those heavily dependent on JavaScript.
 
 ---
 
 ## 🛠️ Built With
-* **[Tkinter](https://python.org)** – Native Python GUI framework for the browser window and controls.
-* **[TkinterWeb](https://pypi.org)** – Lightweight HTML/CSS rendering engine inside Tkinter.
-* **[Camoufox](https://github.com)** – Stealthy, anti-detect browser/fetching capabilities under the hood.
-* **[Requests](https://pypi.org)** – Clean and simple HTTP requests.
+
+- **[Python](https://www.python.org/)** – Main programming language.
+- **[Tkinter](https://docs.python.org/3/library/tkinter.html)** – GUI framework for the browser window and controls.
+- **[TkinterWeb](https://pypi.org/project/tkinterweb/)** – Lightweight HTML/CSS rendering inside Tkinter.
+- **[Camoufox](https://github.com/daijro/camoufox)** – Browser automation and page retrieval fallback.
+- **[Requests](https://requests.readthedocs.io/)** – HTTP requests.
+- **[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)** – HTML parsing.
+- **[Pillow](https://python-pillow.org/)** – Image processing.
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
+
 ```bash
-git clone https://github.com
+git clone https://github.com/PedroWilliam2/PyBrowser.git
 cd PyBrowser
 ```
 
-### 2. Install dependencies
-```bash
-pip install tkinterweb camoufox requests
-```
-*(Note: On Linux, you may also need to install `python3-tk` via your system package manager, e.g., `sudo apt install python3-tk`.)*
+### 2. Create a virtual environment (recommended)
 
-### 3. Run the browser
+**Windows:**
+
 ```bash
-python main.py
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**Linux:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Install the Camoufox browser
+
+```bash
+python -m camoufox fetch
+```
+
+### 5. Run Grumete
+
+```bash
+python maim.py
+```
+
+**Linux note:** You may need to install Tkinter separately:
+
+```bash
+sudo apt install python3-tk
 ```
 
 ---
 
-## ⚓ About "Grumete"
-In naval history, a **Grumete** was the young crew member learning the ropes and helping navigate the ship. Here, Grumete is your sidekick helping you steer through the web without getting sunk by heavy scripts and trackers.
+## ⚓ About the Name
+
+In naval history, a **Grumete** was a young crew member learning the ropes and helping navigate ships.
+
+The browser carries that name as a little tribute to those sailors.
 
 ---
 
 ## 📝 License
-Do whatever you want with it. Fork it, break it, fix the logo if you dare.
+
+No license has been specified yet.
