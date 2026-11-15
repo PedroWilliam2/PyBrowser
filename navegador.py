@@ -5,7 +5,7 @@ import requests
 class Cosa:
     def __init__(self, link="https://info.cern.ch/"):
         self.link = link
-        self.html_final = "Erro ao carregar---"
+        self.html_final = "Error loading---"
 
     def req(self):
         headers = {
@@ -50,5 +50,5 @@ class Cosa:
             try:
                 self.html_final = str(self.camou())
             except:
-                self.html_final = "<html><body><h1>Erro ao carregar o site!</h1>" \
+                self.html_final = "<html><body><h1>Error loading</h1>" \
                 "<a href='https://html.duckduckgo.com'>Duckduckgo!</a> </body></html>"
