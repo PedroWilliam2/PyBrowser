@@ -1,0 +1,5 @@
+tkinterweb
+camoufox
+requests
+beautifulsoup4
+pillow
