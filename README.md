@@ -1,6 +1,6 @@
 # 🏴‍☠️ Grumete
 
-![Grumete Logo](logo.png)
+![Grumete Logo](ancora.png)
 
 *Yes, I made the logo myself. Yes, I know it's ugly. It adds character.*
 
