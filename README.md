@@ -93,4 +93,4 @@ The browser carries that name as a little tribute to those sailors.
 
 ## 📝 License
 
-No license has been specified yet.
+Without a license, do whatever you want—and change the logo, if you’re capable.
