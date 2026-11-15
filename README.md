@@ -95,4 +95,4 @@ The browser carries that name as a little tribute to those sailors.
 
 ## 📝 License
 
-Without a license, do whatever you want—and change the logo, if you’re capable.
+MIT License: break it, shit on it, sail away, and change the logo—if you can.
