@@ -4,6 +4,8 @@
 
 *Yes, I made the logo myself. Yes, I know it's ugly. It adds character.*
 
+![Grumete GUI](imagem_grumete.png)
+
 **Grumete** is a lightweight, simple web browser built with Python. It strips away modern web bloat to provide a simple browsing experience, with a focus on lightweight HTML/CSS rendering and HTTP request handling.
 
 Grumete (Portuguese for *cabin boy*) refers to the young sailors who helped navigate ships back in the day.
